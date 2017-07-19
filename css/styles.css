@@ -1,0 +1,87 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/*Global styles*/
+
+/*Header Styles*/
+a, a:hover {
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 70px;
+}
+
+.logo-wrapper {
+  width: 50%;
+}
+
+.logo-text {
+  font-family: 'Satisfy', cursive;
+  color: #F2767E; /*orange/pink highlight*/
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/*Jumbotron Styles*/
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.hero-text {
+  color: #FFF;
+  font-weight: 400;
+}
+
+/*Products styles*/
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 7.5px;
+}
+
+.product-img {
+  padding: 0px 7.5px;
+}
+
+/*Footer Styles*/
+footer {
+  height: 150px;
+  background-color: #333;  
+  padding: 16px;
+}
+
+footer a, footer a:hover {
+  color: #BFC0C1;
+}
+
+footer img.logo-img {
+  width: 90px;
+}
+
+.address-border {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+address {
+  color: #BFC0C1;
+}
+
+address>a:hover {
+  color: #BFC0C1;
+  text-decoration: none;
+}
+
+.dis-block {
+  display: block;
+}
+
+.copyright {
+  color: #505050;
+}
