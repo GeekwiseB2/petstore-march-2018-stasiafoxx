@@ -50,3 +50,37 @@
   color: #fff;
   font-size: 2em;
 }
+
+/*FEATURE STYLES START*/
+.thumbnail {
+  padding: 6px 12px;
+  background-color: #EDF1f4;
+  border: none;
+}
+
+/*FOOTER STYLES START*/
+footer {
+  padding-top: 45px;
+}
+
+footer, footer a, footer a:hover {
+  background-color: #231F20;
+  color: #B9BABB;
+}
+
+footer .logo {
+  position: relative;
+  left: -55px;
+}
+
+.middle {
+  border-left: 1px solid #313030;
+  border-right: 1px solid #313030;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 992px) {
+  footer .logo {
+    position: static;
+  }
+}
