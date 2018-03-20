@@ -7,6 +7,14 @@
 }
 
 /*HEADER STYLES*/
+.flex {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .brand {
   font-family: 'Satisfy', cursive;
   color: #FD837E; //base orange
